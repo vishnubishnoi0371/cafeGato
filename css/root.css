@@ -1,0 +1,133 @@
+:root {
+    /* ------------------------- FONT SIZE ------------------------- */
+    --fs-sm: 18px;
+    --fs-lg: 22.46px;
+    --fs-xl: 31px;
+    --fs-2xl: 32px;
+    --fs-3xl: 45.07px;
+    /* --------------------------- COLOR  --------------------------- */
+    --middle-blue: #6fcacf;
+    --light-purple: #a89bb7;
+    --dark-gray: #737373;
+    --light-gray: #3d6273;
+    --light-white: #fcfbe3;
+    --cream: #f9ab97;
+    --light-orange: #f87b54;
+    --prissian-blue: #09384e;
+
+}
+
+/* ----------------------------- FONT SIZE  -------------------------- */
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+/* --------------------------------COLOR-------------------------------- */
+.text_cream {
+    color: var(--cream);
+}
+
+.text_light_white {
+    color: var(--light-white);
+}
+
+.text_light_orange {
+    color: var(--light-orange);
+}
+
+.bg_purple {
+    background: var(--light-purple);
+}
+
+.bg_sky_blue {
+    background: var(--middle-blue);
+}
+
+.light_gray {
+    color: var(--light-gray);
+}
+
+.text_dark_gray {
+    color: var(--dark-gray);
+}
+
+.text_middle_blue {
+    color: var(--middle-blue);
+}
+
+.text_prissian_blue {
+    color: var(--prissian-blue);
+}
+
+/* ---------------------------- LINE HEIGHT  ----------------------------*/
+.lh_118 {
+    line-height: 118%;
+}
+
+.lh_120 {
+    line-height: 120%;
+}
+
+.lh_121 {
+    line-height: 121%;
+}
+
+.lh_170 {
+    line-height: 170%;
+}
+
+/* -------------------------------FONT-FAMILY -------------------------------*/
+@font-face {
+    font-family: "norwester";
+    src: url(../assets/font-family/norwester.otf);
+}
+
+.ff_inter {
+    font-family: "Inter", sans-serif;
+
+}
+
+.ff_norwester {
+    font-family: "norwester", sans-serif;
+
+}
+
+@media (min-width: 768px) {
+    :root {
+        /* ------------------------- FONT SIZE ----------------------- */
+        --fs-sm: 20px;
+        --fs-lg: 22.46px;
+        --fs-xl: 31px;
+        --fs-2xl: 42px;
+        --fs-3xl: 64.07px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    :root {
+        /* ------------------------- FONT SIZE ------------------------ */
+        --fs-sm: 20px;
+        --fs-lg: 22.46px;
+        --fs-xl: 31px;
+        --fs-2xl: 48px;
+        --fs-3xl: 74.07px;
+    }
+}

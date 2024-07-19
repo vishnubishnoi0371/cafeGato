@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Gato</title>
+    <link rel="icon" href="./assets/images/webp/cafe-gato-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg_light_white max_w_1920 mx-auto">
+    <!-------------------------------------- HEADER------------------------------------ -->
+    <header class="position-relative header_pb">
+
+        <span class="position-absolute z-2 header_star_ellipse pointer_event_none d-none d-lg-block"><svg width="194"
+                height="39" viewBox="0 0 194 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M172.224 16.4391H146.062C144.394 16.4391 143.056 15.1002 143.056 13.4322C143.056 11.7642 144.394 10.4253 146.062 10.4253H172.224C173.892 10.4253 175.231 11.7642 175.231 13.4322C175.231 15.1002 173.892 16.4391 172.224 16.4391Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M190.024 20.5212H126.354C125.344 20.5212 124.422 20.8505 123.764 21.3992C123.105 21.9478 122.688 22.6941 122.688 23.5281C122.688 25.1962 124.335 26.535 126.354 26.535H131.204C133.223 26.535 134.869 27.8738 134.869 29.5418C134.869 30.3758 134.453 31.1221 133.794 31.6708C133.136 32.2195 132.214 32.5487 131.204 32.5487H112.154C111.144 32.5487 110.222 32.8779 109.564 33.4266C108.905 33.9753 108.488 34.7215 108.488 35.5555C108.488 37.2235 110.134 38.5624 112.154 38.5624H185.218C186.227 38.5624 187.149 38.2332 187.808 37.6845C188.466 37.1358 188.883 36.3895 188.883 35.5555C188.883 33.8875 187.237 32.5487 185.218 32.5487H176.373C174.354 32.5487 172.708 31.2099 172.708 29.5418C172.708 28.7078 173.125 27.9616 173.783 27.4129C174.441 26.8642 175.363 26.535 176.373 26.535H190.024C191.034 26.535 191.956 26.2058 192.614 25.6571C193.273 25.1084 193.69 24.3622 193.69 23.5281C193.69 21.8601 192.044 20.5212 190.024 20.5212ZM168.867 31.6708C168.208 32.2195 167.286 32.5487 166.277 32.5487H153.503C151.484 32.5487 149.838 31.2099 149.838 29.5418C149.838 28.7078 150.255 27.9616 150.913 27.4129C151.572 26.8642 152.494 26.535 153.503 26.535H166.277C168.296 26.535 169.942 27.8738 169.942 29.5418C169.942 30.3758 169.525 31.1221 168.867 31.6708Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M97.8875 38.5624H90.3814C88.7134 38.5624 87.3525 37.2017 87.3525 35.5336C87.3525 33.8656 88.7134 32.5048 90.3814 32.5048H97.8875C99.5555 32.5048 100.916 33.8656 100.916 35.5336C100.916 37.2017 99.5555 38.5624 97.8875 38.5624Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M63.737 16.4391H37.5753C35.9072 16.4391 34.5684 15.1002 34.5684 13.4322C34.5684 11.7642 35.9072 10.4253 37.5753 10.4253H63.737C65.405 10.4253 66.7439 11.7642 66.7439 13.4322C66.7439 15.1002 65.3831 16.4391 63.737 16.4391Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M81.5362 20.5212H17.8655C16.8559 20.5212 15.9341 20.8505 15.2757 21.3992C14.6173 21.9478 14.2003 22.6941 14.2003 23.5281C14.2003 25.1962 15.8463 26.535 17.8655 26.535H22.716C24.7352 26.535 26.3813 27.8738 26.3813 29.5418C26.3813 30.3758 25.9643 31.1221 25.3059 31.6708C24.6475 32.2195 23.7256 32.5487 22.716 32.5487H3.66533C2.65573 32.5487 1.73386 32.8779 1.07542 33.4266C0.416987 33.9753 0 34.7215 0 35.5555C0 37.2235 1.64613 38.5624 3.66533 38.5624H76.7296C77.7392 38.5624 78.661 38.2332 79.3194 37.6845C79.9778 37.1358 80.3949 36.3895 80.3949 35.5555C80.3949 33.8875 78.7488 32.5487 76.7296 32.5487H67.8847C65.8655 32.5487 64.2193 31.2099 64.2193 29.5418C64.2193 28.7078 64.6363 27.9616 65.2948 27.4129C65.9532 26.8642 66.8751 26.535 67.8847 26.535H81.5362C82.5458 26.535 83.4676 26.2058 84.1261 25.6571C84.7845 25.1084 85.2015 24.3622 85.2015 23.5281C85.2015 21.8601 83.5554 20.5212 81.5362 20.5212ZM60.3565 31.6708C59.6981 32.2195 58.7763 32.5487 57.7667 32.5487H45.015C42.9958 32.5487 41.3497 31.2099 41.3497 29.5418C41.3497 28.7078 41.7668 27.9616 42.4252 27.4129C43.0836 26.8642 44.0054 26.535 45.015 26.535H57.7887C59.8079 26.535 61.4539 27.8738 61.4539 29.5418C61.4319 30.3758 61.0369 31.1221 60.3565 31.6708Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M100.916 0C100.675 0 100.477 0.19753 100.455 0.438956C100.236 5.59669 96.0879 9.74492 90.9302 9.9644C90.6887 9.9644 90.4912 10.1838 90.4912 10.4252C90.4912 10.6666 90.6887 10.8642 90.9302 10.8861C93.0152 10.9739 94.9246 11.6982 96.4829 12.8834C97.5584 13.6955 98.4582 14.7051 99.1386 15.8903C99.9068 17.2291 100.39 18.7873 100.455 20.4115C100.455 20.6529 100.675 20.8504 100.916 20.8504C101.158 20.8504 101.355 20.6529 101.377 20.4115C101.597 15.2537 105.745 11.1056 110.903 10.8861C111.144 10.8861 111.342 10.6666 111.342 10.4252C111.342 10.1838 111.144 9.98634 110.903 9.9644C109.322 9.89855 107.83 9.45955 106.513 8.71333C105.679 8.25242 104.911 7.65985 104.23 6.97947C102.562 5.26754 101.487 2.96304 101.377 0.417094C101.355 0.197616 101.158 0 100.916 0Z"
+                    fill="#6FCACF" />
+            </svg>
+        </span>
+        <img class="position-absolute bottom-0 pointer_event_none hero_left_ellipse"
+            src="./assets/images/svg/hero_sec_left_ellipse.svg" alt="Header Ellipse">
+        <div class="container ">
+            <div class="d-flex gap-5 justify-content-between">
+                <img class="page_logo mt-4 cursor_pointer" src="./assets/images/webp/cafe-gato-logo.png"
+                    alt="Page Logo">
+                <img class=" header_top_stand d-none d-sm-block d-xl-none"
+                    src="./assets/images/webp/header-top-stand.png" alt="Page light">
+                <img class=" header_top_light position-absolute  d-block d-sm-none"
+                    src="./assets/images/webp/header-light.png" alt="Page light">
+            </div>
+
+            <h1
+                class="fs_3xl lh_118 ff_norwester mx-auto mx-xl-0 text_prissian_blue  text-center text-xl-start fw-normal hero_heading">
+                Join us in building
+                Providence's <span class="text_light_orange ">first ever Cat Cafe!</span> </h1>
+            <p
+                class="hero_description fs_sm text_prissian_blue mx-auto mx-xl-0 text-center text-xl-start ff_inter lh_121 m-0 fw-normal">
+                Hi there! We are thrilled
+                to
+                introduce
+                ourselves as Cafe
+                Gato, in the process of opening the first cat
+                cafe in Providence, Rhode Island! Your support and enthusiasm will be instrumental in making this dream
+                a reality, and we couldn't be more grateful to have you along for the ride.</p>
+            <div class="hero_cloud_img mx-auto mx-xl-0 position-relative">
+                <p
+                    class="fs_lg lh_121 position-absolute m-0 d-flex align-items-center ff_inter cloud_content text-center fw-semibold justify-content-center text_prissian_blue  ">
+                    Thank you for being one of the first people
+                    to join
+                    us on this journey!</p>
+                <img class="cat_img d-none d-sm-block position-absolute" src="./assets/images/webp/cat.png" alt="Cat">
+            </div>
+            <img class="header_girl_img mx-auto d-block d-xl-none end-0 top-0"
+                src="./assets/images/webp/header-small-girl.png" alt="Header Girl">
+
+        </div>
+        <img class="header_girl_img  end-0 d-none d-xl-block top-0" src="./assets/images/webp/header-girl.png"
+            alt="Header Girl">
+    </header>
+    <!------------------------------------- CAFE-VIEW ------------------------------------->
+    <div class="max_w_1920 mx-auto">
+        <img class="w-100  h-100" src="./assets/images/webp/cafe-view.png" alt="Cafe View">
+    </div>
+    <!------------------------------------- ABOUT-CAFE ------------------------------------->
+    <div class="about_pt position-relative">
+        <img class="position-absolute about_ellipse pointer_event_none  d-none d-lg-block end-0"
+            src="./assets/images/svg/right-cat-foot-ellipse.svg" alt="About Cafe Ellipse">
+        <div class="container ">
+            <h2 class="common_heading  text-center mb-0 about_heading_pb">ABOUT CAFE GATO</h2>
+            <div
+                class="d-flex flex-column-reverse flex-lg-row flex-lg-row about_card position-relative justify-content-between align-items-center">
+                <img class="position-absolute about_sign_left" src="./assets/images/svg/foot-sign.svg"
+                    alt="Car Foot Sign">
+                <img class="position-absolute z-2 about_sign_right" src="./assets/images/svg/foot-sign.svg"
+                    alt="Car Foot Sign">
+                <img class="position-absolute about_sign_rightnext" src="./assets/images/svg/foot-sign.svg"
+                    alt="Car Foot Sign">
+                <p
+                    class="fs_sm text_prissian_blue text-center mt-4 mt-lg-0 text-lg-start mx-auto mx-lg-0 fw-normal mb-0 ff_inter pb-4 about_description lh_170">
+                    Founded by
+                    Maximo
+                    and Kaylin Mugica-Drumm, Cafe Gato is a unique space where coffee lovers and cat enthusiasts can
+                    come together and enjoy a cozy, welcoming environment. Our vision is to create a warm and inviting
+                    cafe for our guests while providing a separate, dedicated space for our feline friends. This allows
+                    you to savor your favorite beverages while enjoying the delightful company of cats</p>
+                <img class="about_men_img" src="./assets/images/webp/about-men.png" alt="About Men">
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ OUR-MISSION ------------------------------------>
+    <div class="position-relative mission_py">
+        <img class="position-absolute mission_ellipse pointer_event_none d-none d-lg-block start-0"
+            src="./assets/images/svg/left-cat-foot-ellipse.svg" alt="Our Mission Ellipse">
+        <img src="/assets/images/webp/mission-bg-ellipse.png" alt="Left Ellipse"
+            class="position-absolute mission_bg_ellise end-0 pointer_event_none d-none d-lg-block">
+        <div class="container position-relative">
+            <div class="row flex-column-reverse flex-md-row justify-content-center align-items-center">
+                <div class="col-md-6 col-12 text-center">
+                    <img src="/assets/images/webp/mission-lady.png" alt="Mission Lady"
+                        class="mission_lady_img pt-4 pt-md-0 h-100 w-100">
+                </div>
+                <div class="col-md-6 col-12 pt-xl-5">
+                    <h2 class="common_heading -ms_4 text-md-start py-4 mb-0 pt-md-5 text-center">OUR MISSION</h2>
+                    <p class="ff_inter fs_sm -ms_4 text-md-start text-center mission_description fw-normal lh_170">We
+                        believe in the therapeutic power of cats and coffee. Our cafe aims to provide a stress-free
+                        environment where people can relax, unwind, and find joy in the company of our furry companions.
+                        The benefits of our cat cafe extend beyond our human guests.</p>
+                    <img class="mission_cat_img d-none d-lg-block" src="./assets/images/webp/mission-cat.png"
+                        alt="Mission Cat">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!------------------------------------- BENIFIT ------------------------------------->
+    <div class="position-relative">
+        <span class="benifit_star_ellipse pointer_event_none end-0 d-none d-sm-block position-absolute"><svg width="160"
+                height="39" viewBox="0 0 160 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M172.247 16.439H146.085C144.417 16.439 143.078 15.1002 143.078 13.4322C143.078 11.7642 144.417 10.4253 146.085 10.4253H172.247C173.915 10.4253 175.254 11.7642 175.254 13.4322C175.254 15.0783 173.915 16.439 172.247 16.439Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M190.046 20.4993H126.375C125.366 20.4993 124.444 20.8285 123.785 21.3772C123.127 21.9259 122.71 22.6721 122.71 23.5062C122.71 25.1742 124.356 26.5129 126.375 26.5129H131.226C133.245 26.5129 134.891 27.8518 134.891 29.5198C134.891 30.3539 134.474 31.1001 133.816 31.6488C133.157 32.1975 132.235 32.5267 131.226 32.5267H112.175C111.165 32.5267 110.244 32.856 109.585 33.4047C108.927 33.9533 108.51 34.6995 108.51 35.5335C108.51 37.2016 110.156 38.5404 112.175 38.5404H185.239C186.249 38.5404 187.171 38.2112 187.829 37.6625C188.488 37.1138 188.905 36.3675 188.905 35.5335C188.905 33.8655 187.258 32.5267 185.239 32.5267H176.394C174.375 32.5267 172.729 31.1879 172.729 29.5198C172.729 28.6858 173.146 27.9396 173.805 27.3909C174.463 26.8422 175.385 26.5129 176.394 26.5129H190.046C191.056 26.5129 191.977 26.1837 192.636 25.635C193.294 25.0863 193.711 24.3402 193.711 23.5062C193.711 21.8381 192.065 20.4993 190.046 20.4993ZM168.866 31.6488C168.208 32.1975 167.286 32.5267 166.276 32.5267H153.503C151.484 32.5267 149.837 31.1879 149.837 29.5198C149.837 28.6858 150.254 27.9396 150.913 27.3909C151.571 26.8422 152.493 26.5129 153.503 26.5129H166.276C168.296 26.5129 169.942 27.8518 169.942 29.5198C169.942 30.3539 169.547 31.1001 168.866 31.6488Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M97.8865 38.5403H90.3804C88.7124 38.5403 87.3516 37.1795 87.3516 35.5114C87.3516 33.8434 88.7124 32.4827 90.3804 32.4827H97.8865C99.5546 32.4827 100.915 33.8434 100.915 35.5114C100.937 37.1795 99.5765 38.5403 97.8865 38.5403Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M63.7361 16.439H37.5743C35.9062 16.439 34.5674 15.1002 34.5674 13.4322C34.5674 11.7642 35.9062 10.4253 37.5743 10.4253H63.7361C65.4042 10.4253 66.7429 11.7642 66.7429 13.4322C66.7429 15.0783 65.4042 16.439 63.7361 16.439Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M81.5362 20.4993H17.8656C16.856 20.4993 15.9341 20.8285 15.2757 21.3772C14.6173 21.9259 14.2003 22.6721 14.2003 23.5062C14.2003 25.1742 15.8464 26.5129 17.8656 26.5129H22.716C24.7352 26.5129 26.3813 27.8518 26.3813 29.5198C26.3813 30.3539 25.9643 31.1001 25.3059 31.6488C24.6475 32.1975 23.7256 32.5267 22.716 32.5267H3.66533C2.65573 32.5267 1.73396 32.856 1.07553 33.4047C0.417094 33.9533 0 34.6995 0 35.5335C0 37.2016 1.64613 38.5404 3.66533 38.5404H76.7296C77.7392 38.5404 78.6611 38.2112 79.3195 37.6625C79.9779 37.1138 80.3949 36.3675 80.3949 35.5335C80.3949 33.8655 78.7488 32.5267 76.7296 32.5267H67.8847C65.8655 32.5267 64.2193 31.1879 64.2193 29.5198C64.2193 28.6858 64.6363 27.9396 65.2948 27.3909C65.9532 26.8422 66.8751 26.5129 67.8847 26.5129H81.5362C82.5458 26.5129 83.4676 26.1837 84.1261 25.635C84.7845 25.0863 85.2015 24.3402 85.2015 23.5062C85.2015 21.8381 83.5554 20.4993 81.5362 20.4993ZM60.3785 31.6488C59.72 32.1975 58.7983 32.5267 57.7887 32.5267H45.015C42.9958 32.5267 41.3498 31.1879 41.3498 29.5198C41.3498 28.6858 41.7668 27.9396 42.4252 27.3909C43.0836 26.8422 44.0054 26.5129 45.015 26.5129H57.7887C59.8079 26.5129 61.4539 27.8518 61.4539 29.5198C61.4539 30.3539 61.0369 31.1001 60.3785 31.6488Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M100.938 0C100.696 0 100.499 0.19753 100.477 0.438956C100.258 5.59669 96.1094 9.74481 90.9517 9.96429C90.7102 9.96429 90.5127 10.1838 90.5127 10.4252C90.5127 10.6666 90.7102 10.8642 90.9517 10.8861C93.0367 10.9739 94.9461 11.6982 96.5044 12.8834C97.5799 13.6955 98.4797 14.705 99.1601 15.8902C99.9283 17.229 100.411 18.7873 100.477 20.4115C100.477 20.6529 100.696 20.8504 100.938 20.8504C101.179 20.8504 101.377 20.6529 101.399 20.4115C101.618 15.2537 105.766 11.1056 110.924 10.8861C111.166 10.8861 111.363 10.6666 111.363 10.4252C111.363 10.1838 111.166 9.98624 110.924 9.96429C109.344 9.89845 107.851 9.45955 106.535 8.71333C105.701 8.25242 104.932 7.65975 104.252 6.97936C102.584 5.26743 101.508 2.96293 101.399 0.416987C101.377 0.175561 101.179 0 100.938 0Z"
+                    fill="#6FCACF" />
+            </svg>
+        </span>
+        <div class="container ">
+
+            <h2 class="text-center text-md-start mb-0 common_heading">BENEFITS</h2>
+            <div class="row align-items-center justify-content-between mt-4 mt-md-5">
+                <div class="col-md-6 col-12 ">
+                    <div class="benifit_card bg_purple h-100">
+                        <div class=" text-center d-flex flex-column justify-content-between">
+                            <div class="position-relative ">
+                                <img src="/assets/images/webp/benifit-cat.png" class="benifit_card_img" alt="Cat Logo">
+
+                            </div>
+                            <p
+                                class="ff_inter fs_sm mb-0 lh_170 mt-3 mt-md-4 mt-lg-5 benifit_description mx-auto text-white">
+                                Partnering
+                                with our
+                                local animal shelter, we offer a larger, cage-free environment for our cats to socialize
+                                and
+                                build confidence around people and other cats. This environment helps improve their
+                                overall
+                                well-being and increases their chances of finding their forever home.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 d-flex justify-content-end pt-5 pt-md-0 ">
+                    <div class="benifit_card bg_sky_blue h-100">
+                        <div class=" text-center d-flex flex-column justify-content-between">
+                            <div class="position-relative ">
+                                <img src="/assets/images/webp/benifit-men.png" class="benifit_card_img"
+                                    alt="Benifit Men">
+
+                            </div>
+                            <p
+                                class="ff_inter fs_sm mb-0 lh_170 mt-3 mt-md-4 mt-lg-5 benifit_description mx-auto text-white">
+                                Spending time
+                                with
+                                cats
+                                has been shown to reduce stress and anxiety, improve mood, and offer a unique and
+                                enjoyable
+                                experience. Whether you're a student, a working professional, or a family, our café
+                                offers a
+                                little slice of happiness and relaxation for all!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------- JOURNEY ----------------------------------------->
+    <div class="position-relative journey_tb_spacing">
+        <span class="journey_star_ellipse pointer_event_none d-none d-sm-block position-absolute start-0 z-2"><svg
+                width="97" height="39" viewBox="0 0 97 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M75.2468 16.439H49.0849C47.4169 16.439 46.0781 15.1002 46.0781 13.4322C46.0781 11.7642 47.4169 10.4253 49.0849 10.4253H75.2468C76.9148 10.4253 78.2535 11.7642 78.2535 13.4322C78.2535 15.0783 76.9148 16.439 75.2468 16.439Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M93.0459 20.4993H29.3753C28.3657 20.4993 27.4438 20.8285 26.7854 21.3772C26.1269 21.9259 25.7099 22.6721 25.7099 23.5062C25.7099 25.1742 27.3561 26.5129 29.3753 26.5129H34.2258C36.245 26.5129 37.891 27.8518 37.891 29.5198C37.891 30.3539 37.474 31.1001 36.8156 31.6488C36.1571 32.1975 35.2354 32.5267 34.2258 32.5267H15.175C14.1654 32.5267 13.2436 32.856 12.5852 33.4047C11.9268 33.9533 11.5098 34.6995 11.5098 35.5335C11.5098 37.2016 13.1558 38.5404 15.175 38.5404H88.2393C89.2489 38.5404 90.1707 38.2112 90.8292 37.6625C91.4876 37.1138 91.9046 36.3675 91.9046 35.5335C91.9046 33.8655 90.2585 32.5267 88.2393 32.5267H79.3943C77.3751 32.5267 75.729 31.1879 75.729 29.5198C75.729 28.6858 76.1461 27.9396 76.8045 27.3909C77.463 26.8422 78.3847 26.5129 79.3943 26.5129H93.0459C94.0555 26.5129 94.9773 26.1837 95.6357 25.635C96.2942 25.0863 96.7111 24.3402 96.7111 23.5062C96.7111 21.8381 95.0651 20.4993 93.0459 20.4993ZM71.8663 31.6488C71.2078 32.1975 70.286 32.5267 69.2764 32.5267H56.5028C54.4836 32.5267 52.8375 31.1879 52.8375 29.5198C52.8375 28.6858 53.2545 27.9396 53.9129 27.3909C54.5713 26.8422 55.4932 26.5129 56.5028 26.5129H69.2764C71.2956 26.5129 72.9417 27.8518 72.9417 29.5198C72.9417 30.3539 72.5466 31.1001 71.8663 31.6488Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M0.886517 38.5403H-6.61957C-8.28761 38.5403 -9.64844 37.1795 -9.64844 35.5114C-9.64844 33.8434 -8.28761 32.4827 -6.61957 32.4827H0.886517C2.55455 32.4827 3.91538 33.8434 3.91538 35.5114C3.93733 37.1795 2.5765 38.5403 0.886517 38.5403Z"
+                    fill="#6FCACF" />
+                <path
+                    d="M3.93791 0C3.69648 0 3.49893 0.19753 3.47698 0.438956C3.25751 5.59669 -0.890611 9.74481 -6.04835 9.96429C-6.28977 9.96429 -6.4873 10.1838 -6.4873 10.4252C-6.4873 10.6666 -6.28977 10.8642 -6.04835 10.8861C-3.96331 10.9739 -2.05389 11.6982 -0.495593 12.8834C0.579851 13.6955 1.47973 14.705 2.16012 15.8902C2.92829 17.229 3.41114 18.7873 3.47698 20.4115C3.47698 20.6529 3.69648 20.8504 3.93791 20.8504C4.17934 20.8504 4.37678 20.6529 4.39873 20.4115C4.61821 15.2537 8.76643 11.1056 13.9242 10.8861C14.1656 10.8861 14.3631 10.6666 14.3631 10.4252C14.3631 10.1838 14.1656 9.98624 13.9242 9.96429C12.3439 9.89845 10.8515 9.45955 9.53461 8.71333C8.70059 8.25242 7.93233 7.65975 7.25195 6.97936C5.58391 5.26743 4.50847 2.96293 4.39873 0.416987C4.37678 0.175561 4.17934 0 3.93791 0Z"
+                    fill="#6FCACF" />
+            </svg>
+        </span>
+        <img class="position-absolute d-none pointer_event_none d-lg-block pointer_event_none journey_foot_sign z-3"
+            src="./assets/images/svg/foot-sign.svg" alt="About Cafe Ellipse">
+        <img src="/assets/images/webp/journey-bg-ellipse.png" alt="Left Ellipse"
+            class="position-absolute pointer_event_none journey_bg_ellise pointer_event_none  d-none d-lg-block">
+
+        <div class="container  position-relative">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-12 ">
+                    <h2 class="common_heading text-md-start mb-4 pt-4 pt-lg-0 mb-lg-0 text-center">JOIN OUR JOURNEY</h2>
+                    <p class="ff_inter fs_sm text-md-start mb-0 text-center journey_description fw-normal lh_170">We
+                        invite you to follow us on
+                        social
+                        media for regular updates and to share this exciting news with your friends. Your input
+                        means the world to us, so please let us know what you would love to see at Cafe Gato. We
+                        can’t wait to hear your ideas and see you in our cafe!</p>
+                </div>
+                <div class="col-md-5 col-12 text-center">
+                    <img src="/assets/images/webp/journey-lady.png" alt="Journey Lady"
+                        class="Journey_lady_img pt-4 pt-md-0 w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------- SUPPORT----------------------------------------->
+    <div class="support_pb">
+        <div class="container ">
+            <div class="support_bg position-relative pt-5 text-white ">
+                <img class="position-absolute d-none d-lg-block support_large_light top-0"
+                    src="./assets/images/svg/support_large_light.svg" alt="Hanged Light">
+                <img class="position-absolute d-none d-lg-block support_small_light top-0"
+                    src="./assets/images/svg/support_small_light.svg" alt="Hanged Light">
+                <h2 class="fs_2xl fw-normal text-center px-3 mx-auto ff_norwester pb-4 support_description lh_120">Thank
+                    you
+                    again 🤗
+                    for your
+                    support. Together, we are
+                    building something truly special
+                    for our
+                    community✌️</h2>
+
+                <div class="text-center">
+                    <p class="ff_norwester fs_sm fw-normal mb-1 lh_120">Warmest regards,</p>
+                    <p class="ff_inter fw-semibold mb-1 lh_121">Max & Kaylin</p>
+                    <p class="ff_inter fw-normal mb-0 lh_121">Cafe Gato</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------- STAY-CONNECTED ------------------------------------->
+
+    <div class="position-relative stay_connected_pb">
+        <img src="/assets/images/svg/left-cat-foot-ellipse.svg" alt="Right Ellipse"
+            class="position-absolute stay_left_ellipse pointer_event_none d-none d-lg-block">
+        <img src="/assets/images/svg/foot-sign.svg" alt="Foot Eellipse"
+            class="position-absolute stay_foot_ellipse z-2 pointer_event_none d-none d-lg-block">
+        <img src="/assets/images/svg/right-cat-foot-ellipse.svg" alt="Left Ellippse"
+            class="position-absolute stay_right_ellipse z-3 pointer_event_none d-none end-0 d-lg-block">
+        <img src="/assets/images/webp/stay-bg-ellipse.png" alt="Bg Ellipse"
+            class="position-absolute d-none d-lg-block stay_bg_ellise end-0 ">
+        <div class="container px-3 position-relative">
+            <div class="text-center py-4 py-md-5 py-lg-6 py-xl-7 position-relative">
+                <h2 class="common_heading mb-0">STAY CONNECTED</h2>
+                <div
+                    class="d-flex flex-column-reverse flex-md-row justify-content-between gap-4 align-items-center mt-4 mt-md-5 mt-lg-6">
+                    <form class="d-flex flex-column  max-w-100" style="max-width: 471px; width: 100%;">
+                        <input type="text" class="input_placeholder input_mb  stay_input" placeholder="Enter your Name"
+                            required>
+                        <input type="email" class="input_placeholder input_mb stay_input" placeholder="Enter your Email"
+                            required>
+                        <button type="submit"
+                            class="fw-semibold submit_button fs_sm ff_inter mt-3 text-white lh_121 ">Submit</button>
+                    </form>
+                    <img src="/assets/images/webp/stay-men.png" alt="Stay Men"
+                        class="stay_men_img px-3 px-md-0 mt-4 mt-md-0">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- FOOTER-------------------------------------------->
+    <footer class="footer_bg">
+        <div class=" d-flex justify-content-center align-items-center pt-5 footer_logo_pb">
+            <img class="page_logo cursor_pointer mx-auto" src="./assets/images/webp/cafe-gato-logo.png"
+                alt="Footer Logo">
+        </div>
+        <div class="social_icons_space d-flex align-items-center justify-content-center">
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><svg class="social_icons"
+                    viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19 38C29.4934 38 38 29.4934 38 19C38 8.5066 29.4934 0 19 0C8.50655 0 0 8.5066 0 19C0 29.4934 8.50655 38 19 38Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M31.2019 19.3282C31.2019 17.3151 31.2275 15.3021 31.0569 13.2891C30.7584 9.8687 28.7198 7.47186 25.3249 7.10508C21.1966 6.66153 17.0341 6.72127 12.8972 7.08804C9.87774 7.35246 7.75378 9.43368 7.24199 12.4276C6.86669 14.5771 7.13967 16.7522 7.0629 18.9102C7.0629 20.6502 7.02022 22.3988 7.0714 24.1474C7.17376 27.9176 9.42563 30.4765 13.1616 30.8774C16.8465 31.2782 20.5569 31.0565 24.2502 30.9882C25.4615 30.9626 26.6556 30.6471 27.7133 30.0756C29.8372 28.9241 30.8181 27.0134 31.0569 24.6421C31.236 22.8765 31.2019 21.1023 31.2019 19.3282ZM29.0439 24.3862C28.9501 27.1669 27.0907 28.8387 24.2844 28.9326C22.5443 28.9923 20.7957 28.9411 18.3903 28.9411C16.9744 28.8558 14.8846 29.1629 12.8289 28.7705C10.6453 28.3525 9.31473 26.8769 9.17825 24.6677C8.93089 20.8805 8.87975 17.0934 9.16976 13.3062C9.35741 10.8496 11.0292 9.18632 13.4943 9.02426C17.1962 8.7769 20.8895 8.81102 24.5914 9.02426C27.2356 9.16926 28.9416 10.807 29.0439 13.5535C29.1634 17.1616 29.1719 20.7782 29.0439 24.3862Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M26.9031 12.5472C26.886 13.2466 26.2549 13.8607 25.564 13.8436C24.8987 13.8266 24.2163 13.076 24.2419 12.3936C24.276 11.66 24.8731 11.0971 25.5981 11.1141C26.3487 11.1227 26.9202 11.7539 26.9031 12.5472Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M19.1236 12.8115C15.8312 12.7177 12.8202 15.9931 12.8969 18.9956C12.9822 22.3904 15.5837 25.0858 19.0127 25.0687C22.3478 25.3929 25.3588 22.0492 25.2735 18.9871C25.1711 15.5581 22.5184 12.9139 19.1236 12.8115ZM19.4051 23.1922C16.9485 23.2007 14.9269 21.2645 14.9611 18.9273C14.9867 16.6073 16.9058 14.7648 19.2259 14.816C21.3925 14.8672 23.2519 16.829 23.2093 19.0382C23.1666 21.2133 21.3584 23.1837 19.4051 23.1922Z"
+                        fill="#FCFBE3" />
+                </svg>
+            </a>
+
+            <a href="https://www.facebook.com/home.php" target="_blank" aria-label="facebook"><svg class="social_icons"
+                    viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.2305 38C29.7239 38 38.2305 29.4934 38.2305 19C38.2305 8.5066 29.7239 0 19.2305 0C8.7371 0 0.230469 8.5066 0.230469 19C0.230469 29.4934 8.7371 38 19.2305 38Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M33.2575 19.2769C33.2575 26.2116 28.1908 31.9521 21.5547 33.0098C21.5377 32.95 21.5291 32.7794 21.5291 32.7794L21.5633 23.3115L24.7193 23.2859L25.3334 19.1234H21.5633C21.5633 19.1234 21.5121 17.2639 21.5547 16.4024C21.6144 15.0803 22.365 14.3638 23.6871 14.3041C24.1904 14.2785 24.7022 14.2786 25.2054 14.2956C25.5466 14.3127 25.7001 14.2274 25.6916 13.8521C25.666 12.965 25.6746 12.0779 25.6916 11.1993C25.7001 10.8752 25.5808 10.7643 25.2737 10.7216C24.3099 10.5852 23.346 10.5084 22.3821 10.5084C19.1749 10.5255 17.1364 12.547 17.1108 15.7712C17.1022 16.846 17.0852 19.1234 17.0852 19.1234L13.443 19.1319L13.4515 23.32H17.0852L17.1193 32.6429C17.1193 32.6429 17.1107 32.9159 17.0766 33.0098C10.4746 31.9265 5.43359 26.1945 5.43359 19.2855C5.43359 11.6002 11.6603 5.37354 19.3456 5.37354C27.0308 5.36501 33.2575 11.5917 33.2575 19.2769Z"
+                        fill="#FCFBE3" />
+                </svg>
+
+            </a>
+            <a href="https://in.pinterest.com/" target="_blank" aria-label="podcast"><svg class="social_icons"
+                    viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.461 38C29.9544 38 38.4609 29.4934 38.4609 19C38.4609 8.5066 29.9544 0 19.461 0C8.96757 0 0.460938 8.5066 0.460938 19C0.460938 29.4934 8.96757 38 19.461 38Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M18.024 25.504C17.4184 27.5085 17.1626 29.6067 16.0366 31.4065C15.6954 31.9439 16.1987 31.9695 16.4887 32.0377C17.8279 32.3363 19.1756 32.4557 20.5574 32.3619C27.5602 31.8501 33.0022 25.9219 32.8401 18.9447C32.6781 11.7882 26.9887 6.02217 19.9261 5.85158C11.4562 5.64686 4.86272 13.4942 6.59424 21.785C7.45574 25.8963 9.80138 28.9415 13.5118 30.9289C13.8359 31.0995 14.3306 31.5174 14.3221 30.6559C14.3051 28.8391 14.8765 27.1331 15.2433 25.3931C15.6698 23.3374 16.5569 21.35 15.9001 19.1664C15.7295 18.5949 15.9257 17.9637 16.1389 17.3752C16.301 16.9401 16.5398 16.5563 16.8639 16.2237C17.4866 15.5925 18.2628 15.4304 19.0732 15.7289C19.8664 16.019 20.0455 16.7354 20.037 17.5031C20.0199 19.0555 19.3205 20.4459 18.9623 21.9215C18.7491 22.8086 18.8343 23.5933 19.5508 24.2075C20.3185 24.8728 21.197 24.9325 22.1097 24.5657C22.8774 24.2586 23.4574 23.7213 23.8924 23.0218C25.1378 21.0344 25.5216 18.8423 25.1719 16.5648C24.9075 14.8248 23.8242 13.6221 22.1609 12.9824C19.6873 12.0356 16.5995 12.718 14.8765 14.5689C13.0171 16.5734 12.7612 18.9191 14.1089 21.6742C14.433 22.3395 14.1857 23.0219 13.8018 23.4654C13.4009 23.926 12.8721 23.3971 12.5309 23.1071C10.9529 21.7765 10.5691 19.9597 10.7738 18.0405C11.277 13.3492 15.3883 10.1932 20.5317 10.4491C24.6857 10.6538 27.799 13.2554 28.3279 17.1108C28.6179 19.2261 28.1829 21.2818 27.1935 23.1839C25.2316 26.937 21.5042 27.9008 18.024 25.504Z"
+                        fill="#FCFBE3" />
+                </svg>
+
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" aria-label="Youtube"><svg class="social_icons"
+                    viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.8927 0.388731C9.20438 0.362992 0.691413 8.76263 0.691413 19.3329C0.682848 29.9547 9.11016 38.3629 19.7899 38.3886C30.1527 38.4144 38.6914 29.8517 38.6914 19.4445C38.6914 8.96853 30.247 0.40589 19.8927 0.388731Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M19.6696 27.2144C17.3496 27.2144 15.0295 27.2315 12.7179 27.2144C10.2529 27.1974 8.64927 25.5938 8.62368 23.1202C8.59809 20.7319 8.59809 18.3521 8.62368 15.9638C8.64927 13.439 10.2784 11.8098 12.7862 11.8013C17.3495 11.7928 21.9214 11.7928 26.4848 11.8013C28.8987 11.8098 30.5279 13.422 30.5535 15.8103C30.5706 18.3009 30.5706 20.7916 30.5535 23.2823C30.5279 25.5853 28.9414 27.1803 26.6384 27.2059C24.3098 27.2315 21.9897 27.2059 19.6696 27.2144ZM17.3666 22.4549C19.2687 21.4399 21.0685 20.476 23.0047 19.4524C21.077 18.4545 19.2943 17.5333 17.3666 16.5353C17.3666 18.591 17.3666 20.4334 17.3666 22.4549Z"
+                        fill="#FCFBE3" />
+                </svg>
+
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank" aria-label="Whatsapp"><svg class="social_icons"
+                    viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.5381 38C30.0315 38 38.5381 29.4934 38.5381 19C38.5381 8.50659 30.0315 0 19.5381 0C9.04472 0 0.538086 8.50659 0.538086 19C0.538086 29.4934 9.04472 38 19.5381 38Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M18.3766 7.51893C10.6742 8.81544 6.48624 16.9357 10.0005 23.9045C10.1796 24.2542 10.2052 24.7831 10.0858 25.1584C9.56546 26.8728 8.95978 28.5702 8.31152 30.515C8.80625 30.3871 9.07921 30.3359 9.35216 30.2506C10.7596 29.807 12.1669 29.3805 13.5573 28.8944C14.2397 28.6555 14.8282 28.6726 15.5106 28.9882C17.6857 29.9862 19.9802 30.2335 22.3344 29.7303C27.5887 28.6129 31.2053 23.913 31.2906 18.8976C31.4356 11.3829 24.4838 6.49537 18.3766 7.51893ZM19.9887 27.8623C18.5984 27.8623 17.1654 27.3334 15.8433 26.8302C15.1183 26.5572 14.5553 26.3866 13.8303 26.6937C13.1393 26.9837 12.4058 27.1458 11.6893 27.3675C11.604 27.3334 11.5187 27.2908 11.4334 27.2567C12.6958 25.329 12.167 23.623 11.3908 21.6441C9.48014 16.7737 12.5508 11.2038 17.4298 9.83049C22.5476 8.38897 28.1772 11.4767 29.0899 17.0552C30.1135 23.4012 25.3965 27.8793 19.9887 27.8623Z"
+                        fill="black" />
+                    <path
+                        d="M8.31152 30.515C8.95978 28.5787 9.56546 26.8814 10.0858 25.1584C10.2052 24.7745 10.1796 24.2542 10.0005 23.9045C6.48624 16.9357 10.6657 8.80691 18.3766 7.51893C24.4753 6.49536 31.4355 11.3829 31.299 18.9061C31.2138 23.913 27.5972 28.6129 22.3429 29.7388C19.9887 30.242 17.7027 29.9862 15.5191 28.9967C14.8282 28.6811 14.2482 28.6641 13.5659 28.9029C12.1755 29.3805 10.7596 29.8156 9.36074 30.2591C9.08779 30.3359 8.80625 30.3956 8.31152 30.515ZM11.4249 27.2567C11.5102 27.2908 11.5955 27.3334 11.6808 27.3675C12.3972 27.1458 13.1394 26.9837 13.8218 26.6937C14.5468 26.3866 15.1182 26.5572 15.8347 26.8302C17.1654 27.3334 18.5899 27.8537 19.9802 27.8622C25.388 27.8793 30.1049 23.4012 29.0728 17.0466C28.1687 11.4682 22.5305 8.38896 17.4127 9.83048C12.5337 11.2038 9.46307 16.7737 11.3737 21.6441C12.1584 23.6145 12.6873 25.3204 11.4249 27.2567Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M25.0723 23.6316C24.5008 24.0325 23.7929 24.2286 23.2896 24.4504C21.2169 24.0239 19.4768 23.3501 18.0523 22.0706C16.3976 20.5779 15.0072 18.872 14.4272 16.6628C14.1031 15.443 14.5381 14.3854 15.4337 13.5409C16.2781 12.7391 17.2335 12.9609 17.6771 14.0357C17.8647 14.4877 17.9926 14.9739 18.2059 15.4174C18.5385 16.0742 18.4277 16.6457 17.8903 17.0978C17.3615 17.5414 17.3614 18.019 17.7964 18.4455C18.7176 19.3667 19.6644 20.2538 20.6539 21.1068C21.1742 21.5588 21.7542 21.5162 22.1466 20.8679C22.6669 20.0235 23.3067 19.9467 24.0999 20.4841C24.3388 20.6547 24.6202 20.7656 24.8761 20.9106C26.147 21.5759 26.2664 22.8042 25.0723 23.6316Z"
+                        fill="black" />
+                    <path
+                        d="M23.2807 24.4501C21.208 24.0236 19.468 23.3498 18.0435 22.0704C16.3888 20.5777 14.9984 18.8717 14.4184 16.6625C14.0943 15.4428 14.5293 14.3851 15.4249 13.5321C16.2694 12.7303 17.2247 12.9521 17.6682 14.0269C17.8559 14.4789 17.9838 14.9651 18.1971 15.4002C18.5297 16.0569 18.4188 16.6284 17.8814 17.0805C17.3611 17.524 17.3612 18.0017 17.7877 18.4282C18.7089 19.3494 19.6556 20.2365 20.6365 21.0894C21.1654 21.5415 21.7369 21.4989 22.1292 20.8506C22.6495 20.0062 23.2893 19.9294 24.0826 20.4668C24.3214 20.6374 24.6028 20.7483 24.8587 20.8847C26.1296 21.5586 26.2491 22.7954 25.055 23.6228C24.5005 24.0322 23.784 24.2284 23.2807 24.4501Z"
+                        fill="#FCFBE3" />
+                </svg>
+
+            </a>
+            <a href="tel:+12387412388" target="_blank" aria-label="Telephone"><svg class="social_icons"
+                    viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.6542 38C30.0845 38 38.5398 29.4934 38.5398 19C38.5398 8.50659 30.0845 0 19.6542 0C9.22399 0 0.768555 8.50659 0.768555 19C0.768555 29.4934 9.22399 38 19.6542 38Z"
+                        fill="#F87B54" />
+                    <path
+                        d="M12.8589 15.618C13.0806 17.7504 13.7715 19.6781 14.9316 21.4437C16.0489 23.1326 17.4905 24.4803 19.2476 25.5039C19.3244 25.3333 19.3841 25.1712 19.4694 25.0347C19.657 24.7362 19.8446 24.4377 20.0749 24.1732C20.4332 23.7638 20.8853 23.67 21.3885 23.8662C22.8045 24.4035 24.2119 24.958 25.6278 25.4953C25.7984 25.5636 25.9604 25.6233 26.131 25.6915C26.6172 25.8877 26.8987 26.3057 26.8902 26.8345C26.8646 28.839 25.4742 30.434 23.4868 30.7411C22.8471 30.8349 22.2244 30.724 21.6103 30.5705C18.6505 29.8284 16.0745 28.3954 13.908 26.2545C11.5367 23.9003 9.99289 21.0855 9.29346 17.8101C8.79874 15.4815 8.80722 13.1529 9.32753 10.8328C9.85637 8.46155 12.3727 7.15651 14.6416 8.06065C15.2813 8.31655 15.5372 8.71742 15.4946 9.39979C15.4007 11.0546 15.3154 12.7008 15.2216 14.3556C15.1875 14.9015 14.8889 15.2768 14.3686 15.4388C13.9763 15.5668 13.5753 15.635 13.1574 15.6265C13.0721 15.6179 12.9783 15.618 12.8589 15.618Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M30.4382 16.0527C30.0117 14.7476 29.3379 13.5535 28.4508 12.4788C27.5637 11.4125 26.4975 10.534 25.2948 9.87719C24.041 9.19482 22.7019 8.7854 21.2945 8.64893C21.2689 8.64893 21.2517 8.64893 21.2262 8.64893C21.0556 8.64893 20.8935 8.70863 20.7656 8.81952C20.6206 8.93894 20.5268 9.11805 20.5097 9.32276C20.4756 9.7066 20.7485 10.0478 21.1409 10.099C23.6571 10.406 25.7384 11.5234 27.3249 13.4256C28.9114 15.3277 29.6365 17.571 29.483 20.1043C29.4574 20.4967 29.7474 20.8293 30.1483 20.8635C30.1653 20.8635 30.1909 20.8635 30.208 20.8635C30.3786 20.8635 30.5406 20.8038 30.6685 20.6929C30.8135 20.5735 30.9074 20.3943 30.9244 20.2067C31.0524 18.7993 30.8903 17.4004 30.4382 16.0527Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M21.0124 11.7964C20.9954 11.7964 20.9699 11.7964 20.9528 11.7964C20.586 11.7964 20.2704 12.0864 20.2363 12.4617C20.2022 12.8456 20.4751 13.1867 20.8589 13.2379C22.5052 13.4511 23.8699 14.1932 24.9105 15.4386C25.9512 16.6839 26.4374 18.1595 26.3521 19.8143C26.335 20.1981 26.6165 20.5308 27.0174 20.5649C27.043 20.5649 27.06 20.5649 27.0856 20.5649C27.2562 20.5649 27.4183 20.5052 27.5462 20.3943C27.6912 20.2664 27.7851 20.0958 27.8021 19.8996C27.9557 17.9122 27.2988 15.9674 25.9767 14.415C24.6802 12.9138 22.8719 11.9585 21.0124 11.7964Z"
+                        fill="#FCFBE3" />
+                    <path
+                        d="M20.7229 15.2165C20.6973 15.2165 20.6718 15.208 20.6376 15.208C20.467 15.208 20.3135 15.2677 20.1856 15.3701C20.032 15.498 19.9382 15.6686 19.9211 15.8733C19.887 16.2316 20.1344 16.5557 20.4841 16.6325C22.0706 16.9737 22.8724 17.929 22.9151 19.5496C22.9236 19.9164 23.2051 20.2064 23.5804 20.2405C23.5974 20.2405 23.623 20.2405 23.6401 20.2405C23.8107 20.2405 23.9813 20.1808 24.1092 20.0614C24.2542 19.9334 24.348 19.7543 24.3566 19.5582C24.4163 18.5175 24.0666 17.494 23.3671 16.6581C22.6848 15.8563 21.738 15.336 20.7229 15.2165Z"
+                        fill="#FCFBE3" />
+                </svg>
+
+            </a>
+        </div>
+        <p class="fw-normal footer_bottom_line text-white opacity_80 mb-0 ff_inter lh_121 py-3 text-center">©2024
+            CafeGato | All Rights
+            reserved
+        </p>
+    </footer>
+    <!-------------------------------------------- BOOTSTRAP-LINK------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
