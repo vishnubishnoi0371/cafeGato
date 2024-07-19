@@ -11,9 +11,11 @@
 .duration_400 {
     transition: all 400ms linear;
 }
-.card_shadow{
+
+.card_shadow {
     box-shadow: 0px 22px 0px 0px var(--prissian-blue);
 }
+
 .max_w_1920 {
     max-width: 1920px;
 }
@@ -226,7 +228,6 @@
 
 .submit_button:hover {
     box-shadow: 0px 8px 0px 0px var(--prissian-blue);
-
 }
 
 .submit_button {
@@ -240,7 +241,6 @@
 .pointer_event_none {
     pointer-events: none !important;
 }
-
 
 .stay_connected_pb {
     padding-bottom: 50px;
@@ -317,7 +317,7 @@
 .back_to_top {
     bottom: 10px;
     right: 7px;
-    border: none;
+    border: 1px solid var(--prissian-blue);
     width: 40px;
     height: 40px;
     border-radius: 100%;
