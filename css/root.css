@@ -1,11 +1,11 @@
 :root {
-    /* ------------------------- FONT SIZE ------------------------- */
+    /* ============ FONT-SIZE ============- */
     --fs-sm: 18px;
     --fs-lg: 20Px;
     --fs-xl: 31px;
     --fs-2xl: 32px;
     --fs-3xl: 45.07px;
-    /* --------------------------- COLOR  --------------------------- */
+    /* ============ COLOR  ==============- */
     --middle-blue: #6fcacf;
     --light-purple: #a89bb7;
     --dark-gray: #737373;
@@ -14,11 +14,8 @@
     --cream: #f9ab97;
     --light-orange: #f87b54;
     --prissian-blue: #09384e;
-
 }
-
-/* ----------------------------- FONT SIZE  -------------------------- */
-
+/* ============ FONT-SIZE  ============-- */
 .fs_sm {
     font-size: var(--fs-sm);
 }
@@ -39,7 +36,7 @@
     font-size: var(--fs-3xl);
 }
 
-/* --------------------------------COLOR-------------------------------- */
+/* ==============-COLOR============- */
 .text_cream {
     color: var(--cream);
 }
@@ -76,7 +73,7 @@
     color: var(--prissian-blue);
 }
 
-/* ---------------------------- LINE HEIGHT  ----------------------------*/
+/* ============ LINE HEIGHT  ============-*/
 .lh_118 {
     line-height: 118%;
 }
@@ -93,7 +90,7 @@
     line-height: 170%;
 }
 
-/* -------------------------------FONT-FAMILY -------------------------------*/
+/* ============ FONT-FAMILY ============*/
 @font-face {
     font-family: "norwester";
     src: url(../assets/font-family/norwester.otf);
@@ -101,29 +98,24 @@
 
 .ff_inter {
     font-family: "Inter", sans-serif;
-
 }
 
 .ff_norwester {
     font-family: "norwester", sans-serif;
-
 }
 
 @media (min-width: 768px) {
     :root {
-        /* ------------------------- FONT SIZE ----------------------- */
-        --fs-sm: 20px;
-        --fs-lg: 22.46px;
-        --fs-xl: 31px;
+        /* ============== FONT SIZE ================- */
+        --fs-xl: 28px;
         --fs-2xl: 42px;
         --fs-3xl: 64.07px;
     }
 }
 
 @media (min-width: 992px) {
-
     :root {
-        /* ------------------------- FONT SIZE ------------------------ */
+        /* ============== FONT SIZE ================ */
         --fs-sm: 20px;
         --fs-lg: 22.46px;
         --fs-xl: 31px;
