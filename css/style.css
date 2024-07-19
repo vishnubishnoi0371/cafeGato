@@ -121,7 +121,7 @@
     margin-bottom: 20px;
 }
 
-.mission_py {
+.mission_sec_py {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -314,16 +314,12 @@
 }
 
 .footer_bottom_line {
-    width: 100%;
     border-top: 2px solid var(--light-gray);
 }
 
 .back_to_top {
-    display: none;
-    position: fixed;
     bottom: 10px;
     right: 7px;
-    z-index: 2;
     border: none;
     width: 40px;
     height: 40px;
@@ -356,7 +352,7 @@
         padding-bottom: 70px;
     }
 
-    .mission_py {
+    .mission_sec_py {
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -427,7 +423,7 @@
         padding: 25px 25px 25px 25px;
     }
 
-    .mission_py {
+    .mission_sec_py {
         padding-top: 85px;
         padding-bottom: 85px;
     }
@@ -498,7 +494,7 @@
         max-height: 620px;
     }
 
-    .mission_py {
+    .mission_sec_py {
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -590,7 +586,7 @@
         max-height: 620px;
     }
 
-    .mission_py {
+    .mission_sec_py {
         padding-top: 140px;
         padding-bottom: 140px;
     }
@@ -720,7 +716,7 @@
         padding-bottom: 170px;
     }
 
-    .mission_py {
+    .mission_sec_py {
         padding-top: 210px;
         padding-bottom: 220px;
     }
