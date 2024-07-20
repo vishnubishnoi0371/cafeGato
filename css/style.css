@@ -276,7 +276,7 @@
 }
 
 .footer_logo_pb {
-    padding-bottom: 43px;
+    padding-bottom: 32px;
 }
 
 .-mt_60 {
@@ -385,6 +385,10 @@
 }
 
 @media (min-width: 768px) {
+    .benefit_description {
+        max-width: 280px;
+    }
+
     .back_to_top {
         width: 40px;
         height: 40px;
@@ -449,11 +453,15 @@
     }
 
     .mission_lady_img {
-        max-width: 100%;
+        max-width: 85%;
     }
 }
 
 @media (min-width: 992px) {
+    .benefit_description {
+        max-width: 380px;
+    }
+
     .hero_cloud_img {
         width: 340px;
         height: 286px;
@@ -552,7 +560,7 @@
         right: 7%;
     }
 
-    .mt_lg_6 {
+    .mt_lg_84 {
         margin-top: 84px !important;
     }
 
@@ -604,7 +612,7 @@
 
     .stay_bg_ellipse {
         max-width: 497px;
-        bottom: 20%;
+        bottom: 7%;
         max-height: 620px;
     }
 
@@ -726,6 +734,7 @@
     }
 
     .mission_lady_img {
+        transform: translateX(35px);
         width: 460px;
         max-height: 630px;
     }

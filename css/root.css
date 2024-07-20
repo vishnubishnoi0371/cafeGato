@@ -1,10 +1,10 @@
 :root {
     /* ============ FONT-SIZE ============- */
-    --fs-sm: 18px;
+    --fs-sm: 16px;
     --fs-lg: 20Px;
     --fs-xl: 31px;
     --fs-2xl: 32px;
-    --fs-3xl: 45.07px;
+    --fs-3xl: 40.07px;
     /* ============ COLOR  ==============- */
     --middle-blue: #6fcacf;
     --light-purple: #a89bb7;
@@ -15,6 +15,7 @@
     --light-orange: #f87b54;
     --prissian-blue: #09384e;
 }
+
 /* ============ FONT-SIZE  ============-- */
 .fs_sm {
     font-size: var(--fs-sm);
