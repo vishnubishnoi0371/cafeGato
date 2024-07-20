@@ -49,8 +49,8 @@
 }
 
 .page_logo {
-    width: 145px;
-    height: 145px;
+    width: 130px;
+    height: 130px;
 }
 
 .header_star_ellipse {
@@ -223,6 +223,7 @@
     border: 3px solid var(--prissian-blue);
     border-radius: 72px;
     padding: 15px 15px;
+    background: transparent !important;
     outline: unset !important;
 }
 
@@ -252,7 +253,7 @@
 
 .input_placeholder::placeholder {
     font-family: "Inter", sans-serif;
-    font-size: var(--fs-sm);
+    font-size: var(--fs-xs);
     color: var(--prissian-blue) !important;
     line-height: 160%;
 }
@@ -302,8 +303,8 @@
 }
 
 .social_icons {
-    width: 38px;
-    height: 38px;
+    width: 30px;
+    height: 30px;
 }
 
 .mission_cat_feet {
@@ -386,6 +387,11 @@
 }
 
 @media (min-width: 768px) {
+    .social_icons {
+        width: 38px;
+        height: 38px;
+    }
+
     .page_logo {
         width: 155px;
         height: 152px;
@@ -616,6 +622,9 @@
 }
 
 @media (min-width: 1200px) {
+    .input_placeholder::placeholder {
+        font-size: var(--fs-sm);
+    }
     .hero_cloud_img {
         transform: translateX(14%);
     }
