@@ -20,10 +20,6 @@
     max-width: 1920px;
 }
 
-.max_w_1440 {
-    max-width: 1440px;
-}
-
 .common_heading {
     font-size: var(--fs-2xl);
     font-family: "norwester", sans-serif;
@@ -774,6 +770,14 @@
 }
 
 @media (min-width:1920px) {
+    .benefit_card {
+        max-width: 630px;
+    }
+
+    .benefit_description {
+        max-width: 487px;
+    }
+
     .back_to_top {
         right: calc((100vw - 1900px)/ 2) !important;
     }
