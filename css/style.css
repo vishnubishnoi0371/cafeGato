@@ -509,8 +509,8 @@
 
     .stay_bg_ellipse {
         max-width: 797px;
-        bottom: 10%;
-        max-height: 620px;
+        bottom: 3%;
+        max-height: 400px;
     }
 
     .mission_sec_py {
@@ -562,6 +562,13 @@
 
     .mt_lg_76 {
         margin-top: 76px !important;
+    }
+
+    .mission_bg_ellipse {
+        max-width: 565px;
+        bottom: 21%;
+        right: 0;
+        max-height: 690px;
     }
 }
 
